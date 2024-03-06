@@ -466,7 +466,7 @@ a {
 }
 .blog {
   margin-top: 135px;
-  padding: 96px;
+  padding: 96px 96px 140px;
   background: #fffcf4;
 }
 .blog .heading-lv2 {
@@ -539,4 +539,66 @@ a {
 .blog .base .btn:hover {
   background: var(--main-color);
   opacity: 1;
+}
+.footer {
+  background: #2e2100;
+}
+.footer .row {
+  display: flex;
+  padding: 96px 0 38px;
+}
+.footer .row .column {
+  width: 21.6%;
+}
+.footer .row .column:first-child {
+  width: 35%;
+}
+.footer .column .desc {
+  margin-top: 18px;
+  width: 267px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 1.86;
+}
+.footer .social {
+  margin-top: 18px;
+}
+.footer .social a + a {
+  margin-left: 18px;
+}
+.footer .column .title {
+  padding-bottom: 14px;
+  padding-right: 48px;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.75;
+  display: inline-block;
+  border-bottom: 1px solid #59554b;
+}
+.footer .column .list {
+  margin-top: 28px;
+}
+.footer .list a {
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 1.86;
+}
+.footer .list li + li {
+  margin-top: 12px;
+}
+.footer .column strong {
+  color: #fff;
+  font-weight: 600;
+}
+.footer hr {
+  height: 1px;
+  background: #59554b;
+}
+.footer .last {
+  color: #807d74;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  padding: 28px 0;
 }
